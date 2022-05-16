@@ -1,0 +1,35 @@
+{
+  "name": "Payme",
+  "version": "1.0.0",
+  "description": "Payme payment solution",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "payme",
+    "restapi",
+    "payme-api"
+  ],
+  "author": "naim-ul-hassan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "bson": "^4.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0",
+    "winston": "^3.6.0"
+  }
+}

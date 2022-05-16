@@ -1,0 +1,7 @@
+node_modules
+infoLogs.log
+.editorconfig
+.env
+ztest.js
+package-lock.json
+done.txt
